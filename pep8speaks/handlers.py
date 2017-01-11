@@ -108,7 +108,7 @@ def handle_review(request):
 
     ## If pep8ify is not there, all other reviews with body summary
     ## having the mention of pep8speaks, will result in commenting
-    ## with autpep8 diff gist.
+    ## with autopep8 diff gist.
     conditions_matched = condition1 and condition2 and condition3
 
     if conditions_matched:
